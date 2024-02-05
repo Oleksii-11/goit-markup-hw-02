@@ -1,5 +1,5 @@
-body {
-  font-family: "Roboto", "Raleway", sans-serif;
+.body {
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background: #fff;
 }
@@ -18,15 +18,17 @@ body {
   text-decoration: none;
   color: #2e2f42;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
-.mail-item:hover,
-.mail-item:active,
-.mail-item:focus {
-  color: #404bbf;
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .contacts {
@@ -39,9 +41,13 @@ body {
   color: #434455;
 }
 
-.contacts-hover,
-.contacts-focus {
-  color: #404bbf;
+.contacts-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .dark {
@@ -110,6 +116,10 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+}
+
+.fon {
+  background-color: #ffffff;
 }
 
 .our-team {
